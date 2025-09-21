@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">Your Name</a>
+            </div>
+            <div class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger">☰</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Your Name</h1>
+                <p class="typing-text">Frontend Developer & UI/UX Enthusiast</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn cta-btn">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/300x300" alt="Profile picture" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="bio">
+                    <p>Welcome to my portfolio! I'm a passionate frontend developer with a keen eye for creating beautiful, functional, and user-friendly websites. With a focus on clean code and modern design principles, I strive to build engaging digital experiences that leave a lasting impression.</p>
+                    <p>I'm constantly learning and exploring new technologies to stay at the forefront of web development. When I'm not coding, you can find me exploring nature, reading design blogs, or experimenting with new creative projects.</p>
+                </div>
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skills-container">
+                        <span class="skill-badge">HTML5</span>
+                        <span class="skill-badge">CSS3</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">Responsive Design</span>
+                        <span class="skill-badge">UI/UX Design</span>
+                        <span class="skill-badge">Web Accessibility</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                        <div class="project-overlay">
+                            <h4>Technology Used</h4>
+                            <p>HTML, CSS, JavaScript</p>
+                            <a href="#" class="view-details">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 1</h3>
+                        <p>A clean and modern website designed with user experience in mind. Features responsive design and optimized performance.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn project-btn">View Project</a>
+                            <a href="#" class="btn project-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x300" alt="Project 2">
+                        <div class="project-overlay">
+                            <h4>Technology Used</h4>
+                            <p>HTML, CSS, JavaScript, Responsive Design</p>
+                            <a href="#" class="view-details">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 2</h3>
+                        <p>An interactive web application that showcases advanced CSS techniques and thoughtful UI design patterns.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn project-btn">View Project</a>
+                            <a href="#" class="btn project-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x300" alt="Project 3">
+                        <div class="project-overlay">
+                            <h4>Technology Used</h4>
+                            <p>HTML, CSS, JavaScript, UI/UX Design</p>
+                            <a href="#" class="view-details">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 3</h3>
+                        <p>A portfolio website with clean aesthetics and smooth animations. Demonstrates modern CSS layout techniques.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn project-btn">View Project</a>
+                            <a href="#" class="btn project-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Latest Articles</h2>
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Blog post thumbnail">
+                        <span class="blog-category">Development</span>
+                    </div>
+                    <div class="blog-info">
+                        <span class="blog-date">September 15, 2025</span>
+                        <h3>Modern CSS Techniques Every Developer Should Know</h3>
+                        <p>Explore the latest CSS features that will enhance your web development workflow and create better user experiences.</p>
+                        <a href="#" class="read-more">Read Article</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Blog post thumbnail">
+                        <span class="blog-category">Design</span>
+                    </div>
+                    <div class="blog-info">
+                        <span class="blog-date">August 28, 2025</span>
+                        <h3>Principles of Effective UI Design for Web Developers</h3>
+                        <p>Learn how to apply fundamental design principles to create more appealing and functional interfaces for your projects.</p>
+                        <a href="#" class="read-more">Read Article</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <form action="#" method="post" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
